@@ -1,0 +1,3 @@
+20:56:46.463 [main] INFO  DifferentAppendersExample - This message goes to both console and file
+20:56:46.466 [main] WARN  DifferentAppendersExample - Warning message logged
+20:56:46.466 [main] ERROR DifferentAppendersExample - Error message logged
