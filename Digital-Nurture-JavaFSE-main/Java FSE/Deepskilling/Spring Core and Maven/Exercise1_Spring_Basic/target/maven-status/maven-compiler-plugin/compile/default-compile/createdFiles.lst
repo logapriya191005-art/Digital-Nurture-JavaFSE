@@ -1,0 +1,6 @@
+com\example\EmailSender.class
+com\example\MessageService.class
+com\example\MessageSender.class
+com\example\MainApp.class
+com\example\AppConfig.class
+com\example\MessageProcessor.class
