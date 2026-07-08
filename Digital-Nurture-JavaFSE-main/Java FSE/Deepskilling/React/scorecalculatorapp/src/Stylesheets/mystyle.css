@@ -1,0 +1,16 @@
+div {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+}
