@@ -1,0 +1,31 @@
+<div style="padding: 20px;">
+  <h1>{{ portalName }}</h1>
+  <p>Your one-stop platform for managing courses and enrollment.</p>
+  
+  <div style="display: flex; gap: 20px; margin-top: 30px;">
+    <div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; flex: 1; text-align: center;">
+      <h3>Courses Available</h3>
+      <p style="font-size: 24px; font-weight: bold;">12</p>
+    </div>
+    <div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; flex: 1; text-align: center;">
+      <h3>Enrolled</h3>
+      <p style="font-size: 24px; font-weight: bold;">3</p>
+    </div>
+    <div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; flex: 1; text-align: center;">
+      <h3>GPA</h3>
+      <p style="font-size: 24px; font-weight: bold;">3.8</p>
+    </div>
+  </div>
+
+  <div style="margin-top: 30px; padding: 20px; border: 1px solid #ddd; border-radius: 5px;">
+    <h3>Data Binding & Lifecycle Demo (Hands-On 2)</h3>
+    <button [disabled]="!isPortalActive" (click)="onEnrollClick()" style="padding: 10px; margin-bottom: 10px;">
+      Enroll Now
+    </button>
+    <p *ngIf="message" style="color: green;">{{ message }}</p>
+    
+    <label>Search Course: </label>
+    <input [(ngModel)]="searchTerm" placeholder="Type here..." style="padding: 5px;">
+    <p>Searching for: {{ searchTerm }}</p>
+  </div>
+</div>
